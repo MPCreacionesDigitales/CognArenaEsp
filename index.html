@@ -138,15 +138,15 @@
           acronym: "NAM™",
           badgeColor: "border-amber-500/40 bg-amber-950/60 text-amber-300",
           glowClass: "glow-amber",
-          tagline: "Edad Cerebral vs. Edad Cronológica Real",
-          desc: "Calcula tu nivel de rejuvenecimiento o fatiga neuro-ejecutiva midiendo latencias de control de impulsos.",
+          tagline: "Rendimiento Cognitivo vs. Edad Cronológica",
+          desc: "Evalúa tus latencias de control de impulsos, calibración de riesgo y velocidad de procesamiento.",
           questions: [
             { id: 1, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-01", title: "Efecto Stroop", instructions: "Haz clic en la opción que describe el COLOR DE LA TINTA de la palabra 'VERDE' (escrita en tinta roja).", options: [{text:"Color Verde",score:20},{text:"Color Rojo (Tinta Roja)",score:100,feedback:"¡Frenaste el impulso de leer e identificaste el color de la tinta!"},{text:"Color Azul",score:15},{text:"Color Amarillo",score:10}] },
-            { id: 2, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-02", title: "Pelicula Aburrida", instructions: "Pagaste $15 por cine no reembolsable. A los 20 min es pésima y tienes pendientes. Decisión racional:", options: [{text:"Quedarte para no 'perder' $15",score:20},{text:"Salir inmediatamente y recuperar tu tiempo útil",score:100,feedback:"¡Reconoces que el tiempo futuro es más valioso que el dinero irrecuperable!"},{text:"Dormirte en el cine",score:35},{text:"Comprar golosinas extra",score:10}] },
+            { id: 2, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-02", title: "Película Aburrida", instructions: "Pagaste $15 por cine no reembolsable. A los 20 min es pésima y tienes pendientes. Decisión racional:", options: [{text:"Quedarte para no 'perder' $15",score:20},{text:"Salir inmediatamente y recuperar tu tiempo útil",score:100,feedback:"¡Reconoces que el tiempo futuro es más valioso que el dinero irrecuperable!"},{text:"Dormirte en el cine",score:35},{text:"Comprar golosinas extra",score:10}] },
             { id: 3, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-03", title: "Filtro de Código", instructions: "Código auténtico termina en 'P' y tiene '97' en el centro. ¿Cuál es?", options: [{text:"X79-B",score:15},{text:"X97-P",score:100,feedback:"¡Aislaste los datos clave de entre el ruido!"},{text:"X97-B",score:30},{text:"X79-P",score:25}] },
             { id: 4, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-04", title: "Garantía vs Probabilidad", instructions: "Opción A: $100 seguros. Opción B: 95% de ganar $150 y 5% de $0. ¿Mayor Valor Esperado?", options: [{text:"Opción A ($100)",score:40},{text:"Opción B (EV = $142.50)",score:100,feedback:"¡Cálculo correcto! 0.95 x $150 = $142.50 USD."},{text:"Mismo valor",score:15},{text:"No se calcula",score:10}] },
             { id: 5, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-05", title: "Flanker Flechas", instructions: "Fila: [ ➔  ➔    ➔  ➔ ]. ¿Hacia dónde apunta la FLECHA CENTRAL?", options: [{text:"Apunta a la Derecha ( ➔ )",score:20},{text:"Apunta a la Izquierda (  )",score:100,feedback:"¡Ignoraste los flancos engañosos y te enfocaste en la flecha central!"},{text:"Apunta Arriba",score:0},{text:"Todas apuntan igual",score:10}] },
-            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Proyecto Inviable", instructions: "Invertiste $80k en software. Faltan $20k pero un competidor lanzó versión gratuita superior. Accion:", options: [{text:"Invertir $20k para terminarlo",score:15},{text:"Cancelar el proyecto e reasignar los $20k a algo nuevo",score:100,feedback:"¡Evitaste gastar más dinero en un activo sin futuro!"},{text:"Pedir préstamo de $50k para publicidad",score:10},{text:"Bajar el precio",score:35}] },
+            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Proyecto Inviable", instructions: "Invertiste $80k en software. Faltan $20k pero un competidor lanzó versión gratuita superior. Acción:", options: [{text:"Invertir $20k para terminarlo",score:15},{text:"Cancelar el proyecto y reasignar los $20k a algo nuevo",score:100,feedback:"¡Evitaste gastar más dinero en un activo sin futuro!"},{text:"Pedir préstamo de $50k para publicidad",score:10},{text:"Bajar el precio",score:35}] },
             { id: 7, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-07", title: "Anomalía Financiera", instructions: "A (+12% vta, +2% costo), B (+15% vta, -5% margen), C (+10% vta, +8% costo), D (+18% vta, +14% margen). ¿Anomalía?", options: [{text:"Dept A",score:20},{text:"Dept B",score:100,feedback:"¡Agudeza! Aumentó ventas pero cayó el margen neto."},{text:"Dept C",score:30},{text:"Dept D",score:20}] },
             { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Restricción de Ruina", instructions: "Activo X (50% gana $1000/50% pierde $200). Activo Y (100% gana $380). Tu fondo NO tolera pérdidas. ¿Opción?", options: [{text:"Activo X por mayor EV ($400)",score:30},{text:"Activo Y por cero riesgo de ruina ($380)",score:100,feedback:"¡Subordinaste el EV a la restricción crítica de cero pérdidas!"},{text:"50% y 50%",score:50},{text:"No invertir",score:20}] },
             { id: 9, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-09", title: "Regla Invertida", instructions: "REGLA: Fondo oscuro -> Selecciona OPUESTO a la verdad. Premisa: 'El fuego congela el agua'. ¿Botón?", options: [{text:"FALSO",score:25},{text:"VERDADERO",score:100,feedback:"¡Invertiste el juicio lógico directo según la regla condicional!"},{text:"Indeterminado",score:10},{text:"Depende",score:10}] },
@@ -162,15 +162,15 @@
           acronym: "HAS™",
           badgeColor: "border-cyan-500/40 bg-cyan-950/60 text-cyan-300",
           glowClass: "glow-cyan",
-          tagline: "Inmunidad a la Automatización por Inteligencia Artificial",
-          desc: "Evalúa tu capacidad de pensamiento no lineal, contexto emocional, adaptabilidad al caos e intuición.",
+          tagline: "Habilidades Humanas en la Era de la IA y Pensamiento No Lineal",
+          desc: "Evalúa tu creatividad no lineal, contexto emocional, adaptabilidad al caos y juicio ético.",
           questions: [
             { id: 1, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-01", title: "Subtexto y Sarcasmo", instructions: "Cliente con sonrisa tensa: '¡Claro, genial que cambiaran las fechas sin avisar!'. Intención real:", options: [{text:"Está feliz con la flexibilidad",score:10},{text:"Expresa sarcasmo e irritación severa",score:100,feedback:"¡Captaste la discrepancia entre el texto literal y el tono emocional!"},{text:"Pide reporte escrito",score:25},{text:"Comprende el motivo",score:15}] },
             { id: 2, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-02", title: "Camión Atascado", instructions: "Camión atascado bajo puente por 2 cm. Opciones: romper concreto o recortar techo. Un niño sugiere:", options: [{text:"Acelerar fuerte",score:0},{text:"Desinflar un poco las llantas para bajar 3 cm",score:100,feedback:"¡Pensamiento lateral brillante fuera del patrón estándar!"},{text:"Llamar grúa pesada",score:30},{text:"Remolcar marcha atrás",score:20}] },
             { id: 3, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-03", title: "Silla Imperfecta", instructions: "IA diseña silla 100% anatómica y nadie la compra. Una silla incómoda pero elegante se agota. ¿Por qué?", options: [{text:"La gente no sabe cuidar su salud",score:20},{text:"El ser humano compra estatus e identidad, no solo función",score:100,feedback:"¡Comprendiste el valor simbólico que la IA omite!"},{text:"Era más barata",score:30},{text:"Falla de distribución",score:10}] },
             { id: 4, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-04", title: "Despido Algorítmico", instructions: "IA sugiere despedir al 10% con menor nota. Ese 10% son los que sostienen la moral del equipo. ¿Qué haces?", options: [{text:"Aprobar el despido automático",score:15},{text:"Detener el despido y ajustar métricas para incluir cohesión intangible",score:100,feedback:"¡Priorizaste el tejido social e intangible del equipo!"},{text:"Despedir solo a la mitad",score:35},{text:"Delegar a otra IA",score:10}] },
             { id: 5, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-05", title: "Crisis Cisne Negro", instructions: "Crisis inédita sin datos históricos. Los algoritmos marcan error. Necesitas decidir en 15 min. Postura:", options: [{text:"Paralizar todo a esperar datos",score:15},{text:"Establecer hipótesis rápida, actuar en ciclos cortos y pivotar",score:100,feedback:"¡Capacidad de navegación bajo incertidumbre caótica!"},{text:"Copiar a la competencia",score:30},{text:"Lanzar una moneda",score:10}] },
-            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Alucinación de IA", instructions: "Reporte de IA: 'Comer helado en verano CAUSA incendios forestales'. Falla lógica:", options: [{text:"El porcentaje fue equivocado",score:10},{text:"Confundió correlación con causa: El calor provoca ambos eventos",score:100,feedback:"¡Inmunidad fuerte a alucinaciones de correlación falsa!"},{text:"Los helados son inflamables",score:0},{text:"Faltan bebidas frías",score:20}] },
+            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Alucinación de IA", instructions: "Reporte de IA: 'Comer helado en verano CAUSA incendios forestales'. Falla lógica:", options: [{text:"El porcentaje fue equivocado",score:10},{text:"Confundió correlación con causa: El calor provoca ambos eventos",score:100,feedback:"¡Detectaste con precisión una trampa de correlación falsa!"},{text:"Los helados son inflamables",score:0},{text:"Faltan bebidas frías",score:20}] },
             { id: 7, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-07", title: "Micro-señales de Confianza", instructions: "Cliente acepta términos por correo en 2 min pero en llamada evita mirar a los ojos y desvía preguntas. Acción:", options: [{text:"Firmar inmediatamente",score:20},{text:"Pausar la firma y auditar su capacidad de ejecución real",score:100,feedback:"¡Leíste las micro-incongruencias entre texto digital y conducta humana!"},{text:"Pedir 10% de descuento",score:40},{text:"Cancelar con acusación",score:30}] },
             { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Efecto de 2º Orden", instructions: "Algoritmo pone semáforos de 10 seg en todas las esquinas para evitar choques. Consecuencia no prevista:", options: [{text:"Tráfico fluido total",score:10},{text:"Colapso masivo por embotellamiento e ira de conductores",score:100,feedback:"¡Anticipaste cómo la psicología humana reacciona al exceso de traba!"},{text:"Aumento de autos eléctricos",score:20},{text:"Ahorro de gasolina",score:15}] },
             { id: 9, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-09", title: "Queja de Ascensor Lento", instructions: "IA propone cambiar motor por $100k para ganar 5 seg. Diseñador humano sugiere gastar $500. ¿Qué hizo?", options: [{text:"Poner espejos grandes junto al ascensor para que la gente revise su aspecto",score:100,feedback:"¡Brillante! El problema era la impaciencia por aburrimiento, no la velocidad."},{text:"Poner cartel de disculpa",score:20},{text:"Desactivar la mitad de pisos",score:15},{text:"Obligar a usar escaleras",score:10}] },
@@ -186,8 +186,8 @@
           acronym: "LSS™",
           badgeColor: "border-fuchsia-500/40 bg-fuchsia-950/60 text-fuchsia-300",
           glowClass: "glow-fuchsia",
-          tagline: "Inmunidad a Falacias, Sesgos Cognitivos y Manipulación",
-          desc: "Auditad tu razonamiento crítico, resistencia al framing, ataques ad hominem y gráficas distorsionadas.",
+          tagline: "Razonamiento Crítico & Antimanipulación",
+          desc: "Audita tu pensamiento crítico, resistencia al framing, ataques ad hominem y gráficas distorsionadas.",
           questions: [
             { id: 1, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-01", title: "Ataque Personal", instructions: "Científico presenta datos climáticos de 50 universidades. Panelista contesta: 'No le crean, no duró en su empleo'. Maniobra:", options: [{text:"Argumento válido por confianza del emisor",score:20},{text:"Falacia Ad Hominem: Ataca la persona para desviar la atención",score:100,feedback:"¡Identificaste que el ataque personal no invalida la evidencia!"},{text:"Demuestra que los datos son falsos",score:10},{text:"Objeción metodológica",score:15}] },
             { id: 2, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-02", title: "Efecto Encuadre (Framing)", instructions: "Etiqueta A: '95% Libre de Grasa'. Etiqueta B: 'Contiene 5% de Grasa'. La gente prefiere A. ¿Por qué?", options: [{text:"Efecto Encuadre: Reacciona al tono positivo ignorando que son iguales",score:100,feedback:"¡Detectaste cómo el marco de presentación altera la percepción!"},{text:"Porque A tiene menos grasa",score:15},{text:"Porque B es ilegal",score:10},{text:"Puro azar",score:10}] },
@@ -196,7 +196,7 @@
             { id: 5, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-05", title: "Sesgo de Confirmación", instructions: "Cree que 'los martes hay mala suerte'. Registra el martes que rompió una taza e ignora 10 martes normales. Sesgo:", options: [{text:"Sesgo de Confirmación: Registra solo lo que confirma su creencia",score:100,feedback:"¡Identificaste la tendencia a seleccionar solo datos favorables!"},{text:"Sincronía cuántica",score:15},{text:"Memoria selectiva",score:35},{text:"Coincidencia inusual",score:20}] },
             { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Gráfica Engañosa", instructions: "Ventas subieron 3% ($100k a $103k), pero la barra se ve 10 VECES MÁS ALTA porque el eje empezó en $99k. Objetivo:", options: [{text:"Hacer más clara la lectura",score:20},{text:"Manipulación Visual: Exagerar ópticamente un crecimiento modesto",score:100,feedback:"¡Detectaste la alteración del eje para manipular la percepción!"},{text:"Ahorrar espacio",score:15},{text:"Corregir inflación",score:10}] },
             { id: 7, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-07", title: "Falsa Autoridad", instructions: "Actor famoso de películas de acción recomienda un suplemento para el corazón. ¿Por qué NO es evidencia?", options: [{text:"Falsa Autoridad: La fama no otorga competencia médica ni científica",score:100,feedback:"¡El estatus en un área no califica para dictaminar sobre medicina!"},{text:"Le pagaron poco dinero",score:15},{text:"Solo funciona en jóvenes",score:10},{text:"Debió mostrar sus exámenes",score:30}] },
-            { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Inferencia Incorrecas", instructions: "Premisa: 'Si llueve, el césped se moja. El césped está mojado'. Reportero: 'Por lo tanto llovió'. Falla:", options: [{text:"Afirmación del Consecuente: Pudo mojarse por regadores u otra causa",score:100,feedback:"¡Identificaste la falacia de asumir que el efecto solo tiene una causa!"},{text:"El césped moderno no se moja",score:15},{text:"Conclusión perfecta",score:20},{text:"Solo afecta estadios abiertos",score:10}] },
+            { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Inferencia Incorrecta", instructions: "Premisa: 'Si llueve, el césped se moja. El césped está mojado'. Reportero: 'Por lo tanto llovió'. Falla:", options: [{text:"Afirmación del Consecuente: Pudo mojarse por regadores u otra causa",score:100,feedback:"¡Identificaste la falacia de asumir que el efecto solo tiene una causa!"},{text:"El césped moderno no se moja",score:15},{text:"Conclusión perfecta",score:20},{text:"Solo afecta estadios abiertos",score:10}] },
             { id: 9, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-09", title: "Sesgo de Disponibilidad", instructions: "Tras ver 3 noticias de tiburones, cancela sus vacaciones afirmando que es muy probable morir en el agua. Sesgo:", options: [{text:"Evaluación de riesgo fundamentada",score:15},{text:"Sesgo de Disponibilidad: Sobreestima el peligro por recuerdos dramáticos recientes",score:100,feedback:"¡Diferencias la emoción del recuerdo de la probabilidad real (1 en 3.7M)!"},{text:"Prudencia preventiva",score:25},{text:"Intuición biológica",score:10}] },
             { id: 10, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-10", title: "Pendiente Resbaladiza", instructions: "Orador: 'Si permitimos home office el viernes, nadie irá a la oficina y la empresa quebrará en 6 meses'. Falacia:", options: [{text:"Proyección preventiva de alto rigor",score:20},{text:"Pendiente Resbaladiza: Encadena eventos desastrosos sin justificar cada paso",score:100,feedback:"¡Desmontaste la trampa de predecir catástrofes en cadena sin prueba!"},{text:"Análisis directo",score:25},{text:"Diagnóstico cultural",score:15}] },
             { id: 11, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-11", title: "Trampa del Promedio", instructions: "Vecindario de 100 familias. Ingreso promedio: $100k USD. Realidad: 1 millonario gana $9.9M y 99 familias ganan $1k. Trampa:", options: [{text:"Error de redondeo",score:15},{text:"Trampa de la Media Aritmética: Valores extremos distorsionan el promedio; debió usarse Mediana",score:100,feedback:"¡Identificaste cómo la media aritmética camufla desigualdad extrema!"},{text:"Falta de impuestos",score:10},{text:"Encuesta mal hecha",score:20}] },
@@ -218,9 +218,9 @@
             { id: 3, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-03", title: "Analogía Conceptual", instructions: "'Motor' es a 'Automóvil' lo que 'Semilla' es a...", options: [{text:"La Tierra fértil",score:25},{text:"El Árbol frondoso",score:100,feedback:"¡Excelente Asociación Sintética! Captaste el principio generador subyacente."},{text:"El Fruto maduro",score:30},{text:"El Agua de riego",score:15}] },
             { id: 4, difficulty: "FÁCIL", difficultyColor: "bg-emerald-950 text-emerald-300 border-emerald-500/40", code: "MOD-04", title: "Ensayo Directo", instructions: "Dispositivo desconocido con 3 botones (Rojo, Azul, Verde) sin manual. Tienes 10 seg para encenderlo. Acción:", options: [{text:"Presionar el botón central y observar reacción inmediata",score:100,feedback:"¡Acción Táctica-Kinestésica! Aprendes mediante ciclos rápidos de prueba."},{text:"Buscar manual en Google",score:30},{text:"Esperar a que otro pruebe",score:15},{text:"Desarmar con destornillador",score:20}] },
             { id: 5, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-05", title: "Compresión de Datos", instructions: "Informe de 50 páginas. Opción A: Mapa interactivo codificado por color. Opción B: Tabla de 500 filas numéricas. ¿Procesas 10x más rápido?", options: [{text:"Opción A: Mapa Interactivo por colores",score:100,feedback:"¡Filtro Visio-Espacial Dominante! Conectas patrones mediante gráficos."},{text:"Opción B: Tabla de 500 filas",score:30},{text:"Toman el mismo tiempo",score:15},{text:"Resumen de audio",score:25}] },
-            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Lógica Ininterrumpida", instructions: "Regla: 'Si A es true, haz B. Si B ocurre, C es obligatorio'. En auditoría ves que C NO ocurrió. Certeza sobre A:", options: [{text:"A fue definitivamente False (no ocurrió)",score:100,feedback:"¡Rigor Analítico Secuencial! Si C no ocurrió, B tampoco, luego A no fue true."},{text:"A fue True pero B falló",score:30},{text:"C ocurrirá mañana",score:10},{text:"No se puede saber",score:20}] },
+            { id: 6, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-06", title: "Lógica Ininterrumpida", instructions: "Regla: 'Si A es verdadero, haz B. Si B ocurre, C es obligatorio'. En auditoría ves que C NO ocurrió. Certeza sobre A:", options: [{text:"A fue definitivamente falso (no ocurrió)",score:100,feedback:"¡Rigor Analítico Secuencial! Si C no ocurrió, B tampoco, luego A no fue verdadero."},{text:"A fue verdadero pero B falló",score:30},{text:"C ocurrirá mañana",score:10},{text:"No se puede saber",score:20}] },
             { id: 7, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-07", title: "Tendencias Dispares", instructions: "1. Aumenta venta de bicis. 2. Sube consumo de café especial. 3. Crece trabajo remoto. Síntesis integradora:", options: [{text:"Coincidencias aleatorias",score:15},{text:"Rediseño de vida urbana centrado en autonomía y calidad local",score:100,feedback:"¡Visión Sintético-Intuitiva! Conectaste 3 puntos aislados en una megatendencia."},{text:"Fallo de transporte público",score:25},{text:"Efecto de publicidad deportiva",score:20}] },
-            { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Simulación Práctica", instructions: "Quieres aprender a negociar contratos internacionales. ¿Método con mayor tasa de retención permanente?", options: [{text:"Simulación de negociación en vivo con actores (Roleplay)",score:100,feedback:"¡Aprendizaje Kinestésico! Fijas conocimiento mediante experiencia inmersiva."},{text:"Leer libro de 400 páginas",score:35},{text:"Memorizar 10 principios",score:25},{text:"Escuchar podcasts",score:20}] },
+            { id: 8, difficulty: "MEDIO", difficultyColor: "bg-cyan-950 text-cyan-300 border-cyan-500/40", code: "MOD-08", title: "Simulación Práctica", instructions: "Quieres aprender a negociar contratos internacionales. ¿Método con mayor tasa de retención permanente?", options: [{text:"Simulación de negociación en vivo con actores",score:100,feedback:"¡Aprendizaje Kinestésico! Fijas conocimiento mediante experiencia inmersiva."},{text:"Leer libro de 400 páginas",score:35},{text:"Memorizar 10 principios",score:25},{text:"Escuchar podcasts",score:20}] },
             { id: 9, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-09", title: "Red de Topología", instructions: "Sistema empresarial con 12 servidores en malla. Para hallar un cuello de botella en <5 segundos usas:", options: [{text:"Diagrama de topología visual con líneas de calor en tiempo real",score:100,feedback:"¡Dominio Visio-Espacial Maestro! Traduces datos masivos en gráficos."},{text:"Archivo de texto con historial",score:25},{text:"Llamar a los 12 administradores",score:10},{text:"Reiniciar todo a la vez",score:15}] },
             { id: 10, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-10", title: "Eliminación de Nodos", instructions: "Proceso de 8 etapas tarda 40 días. Tu análisis prueba que etapas 3 y 6 son redundantes. Eliminarlas baja a 20 días. Destruyes:", options: [{text:"'Siempre se ha hecho así y esas etapas dan sensación de seguridad'",score:100,feedback:"¡Rigor Analítico Superior! Privilegiás la eficiencia sobre la burocracia."},{text:"'Es mejor conservar para hacer más reportes'",score:15},{text:"'Agregar 2 etapas más'",score:10},{text:"'Crear un comité'",score:20}] },
             { id: 11, difficulty: "DIFÍCIL", difficultyColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-500/40", code: "MOD-11", title: "Movimiento Disruptivo", instructions: "Toda la industria compite bajando precios 5% reduciendo calidad. Tu intuición de superpoder sugiere:", options: [{text:"Subir precios 50%, triplicar calidad y crear categoría Premium nueva",score:100,feedback:"¡Superpoder Sintético-Intuitivo! Rompes el marco convencional creando un océano azul."},{text:"Bajar precio 6% trabajando sin ganancia",score:20},{text:"Mantener precios exactamente igual al líder",score:25},{text:"Cerrar la línea",score:10}] },
@@ -429,7 +429,7 @@
                   </button>
                 ` : `
                   <div class="bg-slate-900/80 px-3.5 py-2 rounded-xl border border-slate-800 text-right">
-                    <div class="text-[10px] font-mono text-slate-400">DESAFIANTE REGISTRADO:</div>
+                    <div class="text-[10px] font-mono text-slate-400">DESAFIANTE:</div>
                     <div class="text-xs font-bold text-cyan-300 font-mono">${state.userProfile.name || 'Invitado'}</div>
                   </div>
                 `}
@@ -446,6 +446,11 @@
             <main class="p-4 sm:p-8">
               ${contentHtml}
             </main>
+
+            <!-- FOOTER DISCLAIMER -->
+            <footer class="p-4 border-t border-slate-800/80 text-center text-[11px] text-slate-500 leading-relaxed font-sans">
+              CognArena está diseñada con fines de entretenimiento, autodescubrimiento y entrenamiento cognitivo. Las puntuaciones, estimaciones de Edad Cerebral y perfiles de rendimiento se generan dentro de la experiencia CognArena y no constituyen evaluaciones clínicas, médicas, psicológicas ni de CI estandarizadas.
+            </footer>
           </div>
         `;
 
@@ -457,13 +462,13 @@
           <div class="space-y-6 max-w-lg mx-auto py-4 sm:py-8">
             <div class="text-center space-y-3">
               <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-mono font-bold bg-slate-900 text-cyan-300 border border-cyan-500/40 glow-cyan">
-                ${ICONS.sparkles} ACCESO OBLIGATORIO A COGNARENA
+                ${ICONS.sparkles} ACCESO A COGNARENA
               </div>
               <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight">
-                Activa tu <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-fuchsia-400 to-cyan-400">Pasaporte Cognitivo</span>
+                Crea tu <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-fuchsia-400 to-cyan-400">Pasaporte Cognitivo</span>
               </h2>
               <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                Registra tu nombre y correo electrónico para desbloquear los 5 diagnósticos neuro-ejecutivos y guardar tus resultados.
+                Crea tu Pasaporte Cognitivo para desbloquear los 5 desafíos cognitivos y guardar tus resultados en este dispositivo.
               </p>
             </div>
 
@@ -510,6 +515,10 @@
                 />
               </div>
 
+              <div class="text-[11px] font-mono text-slate-400 text-center pt-1">
+                🔒 Tu progreso se guarda localmente en este dispositivo.
+              </div>
+
               <button
                 type="submit"
                 class="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-orange-500 via-fuchsia-500 to-cyan-400 hover:from-orange-400 hover:to-cyan-300 text-slate-950 font-black text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2 shadow-lg glow-cyan mt-3"
@@ -530,13 +539,13 @@
             <!-- HERO HEADER BANNER -->
             <div class="text-center space-y-3">
               <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-mono font-bold bg-slate-900 text-slate-200 border border-orange-500/40 glow-orange">
-                ${ICONS.sparkles} COGNARENA COGNITIVE SUITE
+                ${ICONS.sparkles} SUITE COGNITIVA COGNARENA
               </div>
               <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight">
                 5 Desafíos de Alto Rendimiento <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-fuchsia-400 to-cyan-400">en una Sola Arena</span>
               </h2>
               <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-                Desbloquea los 5 diagnósticos neuro-ejecutivos. Pon a prueba tu agilidad, resistencia a sesgos, edad cerebral e inmunidad a la IA.
+                Desbloquea los 5 módulos de rendimiento cognitivo. Pon a prueba tu agilidad, resistencia a sesgos, edad cerebral CognArena y pensamiento no lineal.
               </p>
             </div>
 
@@ -546,7 +555,7 @@
                 <h3 class="text-xs font-mono font-bold text-orange-400 uppercase tracking-wider flex items-center gap-2">
                   <span>${ICONS.user}</span> Pasaporte Cognitivo Activo
                 </h3>
-                <span class="text-[10px] font-mono text-emerald-400 font-bold">${completedCount} / 5 PRUEBAS COMPLETADAS</span>
+                <span class="text-[10px] font-mono text-emerald-400 font-bold">${completedCount} / 5 DESAFÍOS COMPLETADOS</span>
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-mono">
@@ -555,7 +564,7 @@
                   <span class="text-white font-bold text-sm">${state.userProfile.name}</span>
                 </div>
                 <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800">
-                  <span class="text-slate-400 block text-[10px]">CORREO REGISTRADO:</span>
+                  <span class="text-slate-400 block text-[10px]">CORREO DEL PASAPORTE:</span>
                   <span class="text-cyan-300 font-bold text-xs truncate block">${state.userProfile.email}</span>
                 </div>
                 <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
@@ -637,7 +646,7 @@
               data-launch-mod="${modId}"
               class="btn-launch-mod w-full py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-extrabold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2 group-hover:border-cyan-400 group-hover:text-cyan-300"
             >
-              <span>${history ? 'REPETIR PRUEBA' : 'INICIAR DESAFÍO'}</span>
+              <span>${history ? 'REPETIR DESAFÍO' : 'INICIAR DESAFÍO'}</span>
               <span>${ICONS.chevronRight}</span>
             </button>
           </div>
@@ -711,7 +720,7 @@
         const res = state.completedHistory[state.activeModuleId];
         if (!res) return '<div>No hay datos de resultados disponibles.</div>';
 
-        const shareText = `🧠 CognArena (${modConfig.acronym}): ¡Alcancé un puntaje de ${res.score}/1000 pts en '${modConfig.name}'! Tiempo medio: ${(res.avgTimeMs / 1000).toFixed(1)}s por acertijo. ¿Puedes superarme? 🔥`;
+        const shareText = `🧠 Acabo de completar ${modConfig.acronym} en CognArena y obtuve ${res.score}/1000 pts. ⚡ Tiempo medio de respuesta: ${(res.avgTimeMs / 1000).toFixed(1)}s. ¿Crees que puedes superar mi puntaje? 🔥 Test. Train. Compete.`;
         const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
 
         return `
@@ -721,7 +730,7 @@
               <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="space-y-3 text-center md:text-left">
                   <span class="inline-block bg-slate-900/90 text-cyan-300 text-[10px] font-mono px-3 py-1 rounded-full border border-cyan-500/40">
-                    DIAGNÓSTICO // ${modConfig.acronym} COMPLETADO
+                    DESAFÍO // ${modConfig.acronym} COMPLETADO
                   </span>
                   <h2 class="text-3xl font-black text-white">
                     ${state.userProfile.name || 'Desafiante'}
@@ -731,8 +740,13 @@
                   </p>
 
                   ${res.extraMeta.brainAge ? `
-                    <div class="inline-block px-3.5 py-1.5 rounded-xl border border-emerald-500/40 bg-emerald-950/80 text-xs font-mono font-bold text-emerald-300">
-                      EDAD CEREBRAL CALCULADA: ${res.extraMeta.brainAge} AÑOS
+                    <div class="space-y-1">
+                      <div class="inline-block px-3.5 py-1.5 rounded-xl border border-emerald-500/40 bg-emerald-950/80 text-xs font-mono font-bold text-emerald-300">
+                        EDAD CEREBRAL COGNARENA: ${res.extraMeta.brainAge} AÑOS
+                      </div>
+                      <div class="text-[10px] text-slate-400 font-mono">
+                        *La Edad Cerebral CognArena es una estimación de rendimiento recreativa generada a partir de los resultados de tus desafíos.
+                      </div>
                     </div>
                   ` : ''}
 
@@ -745,7 +759,7 @@
 
                 <!-- SCORE HIGHLIGHT BOX -->
                 <div class="glass-card p-6 rounded-2xl border border-cyan-400/40 text-center min-w-[220px] glow-cyan">
-                  <div class="text-[10px] font-mono uppercase tracking-widest text-slate-400">Puntaje Mapeado</div>
+                  <div class="text-[10px] font-mono uppercase tracking-widest text-slate-400">Puntaje CognArena</div>
                   <div class="text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-cyan-300 to-emerald-400 my-1 font-mono">
                     ${res.score}
                     <span class="text-xs text-slate-500 font-normal">/1000</span>
@@ -769,12 +783,12 @@
                   </h3>
                 </div>
                 <span class="text-[11px] font-mono text-emerald-400 font-semibold bg-emerald-950/80 px-2.5 py-1 rounded-lg border border-emerald-500/30">
-                  +100 pts de Orgullo Mental
+                  Listo para Compartir
                 </span>
               </div>
 
               <p class="text-xs text-slate-300 leading-relaxed">
-                Copia tu tarjeta de diagnóstico oficial y pégala en los comentarios de nuestra Fan Page para comparar con otros miembros de la comunidad:
+                Copia tu tarjeta de resultado oficial de CognArena y pégala en los comentarios de nuestra Fan Page para comparar con otros miembros de la comunidad:
               </p>
 
               <!-- COPYABLE TEXTAREA -->
@@ -804,7 +818,7 @@
                   class="py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20"
                 >
                   <span class="text-white">${ICONS.facebook}</span>
-                  <span>2. Ir a nuestra Fan Page</span>
+                  <span>2. Comunidad Facebook</span>
                 </a>
 
                 <a
@@ -858,7 +872,7 @@
               </button>
 
               <div class="text-xs text-slate-500 font-mono text-center sm:text-right">
-                PROGRESO GUARDADO EN NAVEGADOR LOCAL
+                PROGRESO GUARDADO LOCALMENTE EN ESTE DISPOSITIVO
               </div>
             </div>
           </div>
